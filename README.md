@@ -1,5 +1,4 @@
-
-panorama-stitcher
+Panorama-Stitcher
 =====
 
 ####Take some overlaping pictures and make a panorama!
