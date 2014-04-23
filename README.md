@@ -1,3 +1,6 @@
+<link rel="stylesheet" href="readmeimages.css">
+
+
 panorama-stitcher
 =====
 
