@@ -1,5 +1,3 @@
-<link rel="stylesheet" href="readmeimages.css">
-
 
 panorama-stitcher
 =====
@@ -7,7 +5,7 @@ panorama-stitcher
 ####Take some overlaping pictures and make a panorama!
 This script uses a SIFT feature-detector to find feature points and calculate homography matricies to map all the photos onto one reference image. 
 
-![featurepoints](arthuroutfeature1.jpg?raw=true =250x)
+![featurepoints](arthuroutfeature1.jpg? =250x raw=true) 
 
 Next it uses a RANSAC algorithm to determine a homography matrix (3x3 matrix with 8 deg freedom and a scale factor) based on 4 random feature points. It just tests which one is best by using it to warp all the feature points and count matches. It does that 100 times and picks the best one and gets the transformed homogenious coordinates from one image to the other. There is definitely a more acurate way to do it, but this way is computationally feasble because matlab is slow.
 
