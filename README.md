@@ -15,6 +15,6 @@ It then uses the matlab bilinear interpolation and inverse warping so we dont ge
 
 ![output](arthurout1.jpg?raw=true =250x)
 
-This is the output image. It has a pretty gnarly curvature because it's just being projected onto a plane. The cool way to do it is to use a non-planar projective space like a cylinder, but I didn't get that working yet.
+The output image is pretty gnarly because it's just being projected onto a plane. The cool way to do it is to use a non-planar projective space like a cylinder, but I didn't get that working yet.
 
 My main function is main.m
